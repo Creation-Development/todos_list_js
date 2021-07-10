@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(233, 230, 67);
+}
+input{
+    padding-top: 10px;
+    border-radius: 15px;
+    width: 500px;
+    
+}
+h2{
+    padding-top: 10px;
+    border-bottom: 4px solid black;
+    text-align: center;
+}
+textarea{
+    border-radius: 10px;
+    border-color: black;
+    width: 500px;
+}
+.row{
+    display: flex;
+    padding-top: 20px;
+}
+.col-3{
+    display: grid;
+    margin-left: 520px;
+    margin-top: 10px;
+    margin-right: 50px;
+
+}
+.col-7{
+    margin-bottom: 20px;
+    
+}
+.discription{
+    padding-bottom:150px;
+}
+.button{
+    text-align: center;
+}
+input[type=submit]{
+    width: 157px;
+}
