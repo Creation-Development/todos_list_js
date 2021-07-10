@@ -1,12 +1,12 @@
 
 //Initialize Storage
-// if(localStorage.length == null){
+if(localStorage.length == null){
 var Todos = []
-// }
-// else {
-//     var Todos = localStorage.getItem("todos")
-//     console.log(typeof Todos)
-// }
+}
+else {
+    var Todos = localStorage.getItem("todos")
+    console.log(typeof Todos)
+}
 
 //Update Storage
 var update = () =>  {
@@ -14,12 +14,12 @@ var update = () =>  {
     JSON.stringify(data)
 }
 
-// update()
-// function getData() {
-//     var data = localStorage.getItem("todos")
-//     console.log(JSON.parse(data));
-//     event.preventDefault()
-// }
+update()
+function getData() {
+    var data = localStorage.getItem("todos")
+    console.log(JSON.parse(data));
+    event.preventDefault()
+}
 
 //Add Todos To Storage
 function addTodo(title,description) {
