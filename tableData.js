@@ -1,11 +1,11 @@
 
-if (localStorage.length == null) {
-    var Todo = [] 
-}
-else {
-    var json = localStorage.getItem('list')
-    Todo = JSON.parse(json)
-}
+// if (localStorage.length == null) {
+//     var Todo = [] 
+// }
+// else {
+//     var json = localStorage.getItem('list')
+//     Todo = JSON.parse(json)
+// }
 var tableShow = () => {
     console.log(localStorage)
 
