@@ -1,14 +1,12 @@
 
-if (localStorage.length == null) {
+if (localStorage.getItem('list') == null) {
     var Todo = [] 
-}
-else {
+} else {
     var json = localStorage.getItem('list')
     Todo = JSON.parse(json)
 }
-// var Todo =[]
 
-console.log(localStorage);
+// console.log(localStorage);
 //AddTodo To Storage
 var AddTodo = () => {
     var title = document.getElementById('title').value
