@@ -6,6 +6,7 @@ else {
     var json = localStorage.getItem('list')
     Todo = JSON.parse(json)
 }
+// var Todo =[]
 
 console.log(localStorage);
 //AddTodo To Storage
