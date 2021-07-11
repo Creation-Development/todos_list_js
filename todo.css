@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 body{
     background-color: rgb(0, 0, 0);
     color: white;
 }
 label{
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 input{
     padding-top: 10px;
@@ -24,12 +26,14 @@ h2{
     border-bottom: 2px solid white;
     text-align: center;
     letter-spacing:12px;
-    font-family: 'Zen Tokyo Zoo', cursive;
-    
-    
+    font-family: 'Montserrat', sans-serif;  
 }
+i{
+    margin-left: 20px;
+}
+
 textarea{
-    border-radius: 10px;
+    border-radius: 15px;
     border-color: black;
     width: 500px;
     background-color: black;
@@ -45,9 +49,6 @@ textarea{
     margin-left: 400px;
     margin-top: 10px;
     margin-right: 50px;
-    
-    
-
 }
 .col-7{
     margin-bottom: 20px;
@@ -67,11 +68,15 @@ input[type=submit]{
     margin-left: 100px;
     padding-bottom: 10px;
     color:white;
-    transition: 0.5s all ease-in;
+    transition: 0.3s all ease-in;
     background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 input[type=submit]:hover{
     background-color: white;
     color: black;
-    transition: 0.5s all ease-in;
+    border: 6px double black;
+    transition: 0.3s all ease-in;
 }
+
