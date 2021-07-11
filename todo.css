@@ -23,6 +23,10 @@ h2{
     padding-bottom: 20px;
     border-bottom: 2px solid white;
     text-align: center;
+    letter-spacing:12px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    
+    
 }
 textarea{
     border-radius: 10px;
@@ -41,6 +45,8 @@ textarea{
     margin-left: 400px;
     margin-top: 10px;
     margin-right: 50px;
+    
+    
 
 }
 .col-7{
