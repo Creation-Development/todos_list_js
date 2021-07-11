@@ -15,16 +15,23 @@ var tableShow = () => {
         }
     }
 }
+
+
 tableShow()
 
 
 var deleteTodo = (id) => {
     var array = JSON.parse(localStorage.getItem('list'))
+    if (array.length == 1) {
+        clearList()
+    }
+    else{
     array.splice(id,1)
-    console.log(array);
     localStorage.setItem('list', JSON.stringify(array))
     tableShow()
 }
+}
+
 
 var clearList = () => {
     alert("Are you sure want to clear Todo list ??")
