@@ -79,4 +79,44 @@ input[type=submit]:hover{
     border: 6px double black;
     transition: 0.3s all ease-in;
 }
+th,tr,td {
+    padding: 15px;
+}
+ 
+.container{
+      text-align: center;
+      margin-left: 15%;
+      margin-top: 50px;
 
+      
+}
+
+ table{ 
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;  
+
+ }
+
+ a{
+     color:white;
+     background-color: transparent;
+     border: 2px solid white;
+     text-decoration: none;
+     padding: 10px;
+     border-radius: 20px;
+     padding-inline: 35px ;
+     transition: 0.3s all ease-in;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 900;
+ }
+ a:hover{
+    background-color: white;
+    color: black;
+    border: 6px double black;
+    transition: 0.3s all ease-in;
+
+ }
+ .btn{
+     text-align: center;
+     margin-top: 50px;
+ }
