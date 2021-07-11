@@ -1,6 +1,6 @@
 
 if (localStorage.getItem('list') == null) {
-    var Todo = [] 
+    var Todo = []
 } else {
     var json = localStorage.getItem('list')
     Todo = JSON.parse(json)

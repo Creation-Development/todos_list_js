@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Todos</title>
     <link rel="stylesheet" href="./todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <h2> &#128221; Your Todo &#128221;</h2>
     <div class="container" id="table">
-        <table border="1">
+        <table>
             <thead>
                 <tr>
                     <th> Index </th>
@@ -21,18 +23,13 @@
                     <th> Action </th>
                 </tr>
             </thead>
-            <tbody id="tbody">
-                <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                </tr>
+            <tbody id="tbody" class="">
             </tbody>
         </table>
     </div>
     <div class="btn">
-        <a href="./todo.html"> Add New Todo</a>
+        <a href="./todo.html">Add New Todo</a>
+        <a onclick="clearList()">Clear All Todos</a>
     </div>
 </body>
 <script src="/tableData.js"></script>
