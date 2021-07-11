@@ -40,6 +40,10 @@ textarea{
     color: white;
     border: 2px solid white;
 }
+textarea:focus{
+    outline: none;
+    text-align: center;
+}
 .row{
     display: flex;
     padding-top: 20px;
