@@ -26,6 +26,7 @@ var deleteTodo = (id) => {
         clearList()
     }
     else{
+    alert("Are you sure want to delete Todo ??")
     array.splice(id,1)
     localStorage.setItem('list', JSON.stringify(array))
     tableShow()
